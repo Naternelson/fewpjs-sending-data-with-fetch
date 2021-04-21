@@ -338,6 +338,7 @@ const configObj = {
 
 fetch("http://localhost:3000/dogs", configObj)
   .then(function(response) {
+    console.log(response)
     return response.json();
   })
   .then(function(object) {
